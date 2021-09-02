@@ -1,6 +1,5 @@
 .cabecalho {
-    
-     text-align: center;
+    text-align: center;
      font-size: 0.6rem;
      font-weight: bold;
      text-transform: uppercase;
@@ -15,7 +14,10 @@
     }
     
     .cabecalho__menu {
-     background-color: #272B3A87;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: #272B3A87;
     }
     
     .cabecalho__item-menu {
