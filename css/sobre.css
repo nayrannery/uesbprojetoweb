@@ -5,13 +5,12 @@ body {
     font-family: "Helvetica", "Lucida Grande", sans-serif;
     color: #3D3D3D;
     }
-
+        
     .titulo {
     padding: 10px;
     font-size: 32px;
     background-color: #E1EDF2;
     }
-   
     .subtitulo {
     border-bottom: 2px solid black;
     }
@@ -37,4 +36,12 @@ body {
     figure img {
     width: 100%;
     }
-  
+    
+    .contato__subtitulo {
+    display: inline;
+    }
+    
+    .contato__info {
+    margin: 16px 0 24px;
+    padding-left: 32px;
+    }
