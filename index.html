@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/form-newsletter.css">
 </head>
 
 <body>
@@ -30,13 +31,9 @@ nicial da Musicdot" alt="Musicdot">
     <main>
         Conteúdo principal
     </main>
-
-
     <footer class="rodape">
-
         <section class="rodape__secao">
             <img class="rodape__logo" src="img/logo.svg" alt="Logo da MusicDot">
-
             <p class="rodape__infos-empresa">
                 AOVS Sistemas de Informática S.A.
                 <br>
@@ -88,7 +85,6 @@ nicial da Musicdot" alt="Musicdot">
                     <li class="rodape_item-lista"><a href="#">Apostila</a></li>
                     <li class="rodape_item-lista"><a href="#">E-book</a></li>
                     <li class="rodape_item-lista"><a href="#">Login</a></li>
-
                     <li class="rodape_item-lista"><a href="#">Matricule-se</a></li>
                     <li class="rodape_item-lista"><a href="#">Perguntas frequentes</a></li>
                     <li class="rodape_item-lista"><a href="#">Para Escolas</a></li>
@@ -96,7 +92,22 @@ nicial da Musicdot" alt="Musicdot">
                 </ul>
             </nav>
         </section>
+        <section class="rodape__secao">
+            <h2 class="rodape__titulo">
+                Receba novidades e lançamentos
+            </h2>
+
+            <form action="#" method="get" class="form-newsletter">
+                <label for="form-newsletter__label" class="form-newsletter__label">
+                    Seu email pessoal
+                </label>
+                <input id="email-newsletter" name="email-newsletter" type="email" class="form-newslett
+er__campo">
+                <button type="submit" class="form-newsletter__botao">
+                    OK
+                </button>
+            </form>
+        </section>
     </footer>
 </body>
-
 </html>
