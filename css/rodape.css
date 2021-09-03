@@ -1,8 +1,10 @@
 .rodape {
-    padding: 2em 5%;
+    padding-top: 2em;
+    padding-bottom: 2em;
     text-align: center;
     font-size: 0.7rem;
 }
+
 .rodape__logo {
     width: 11.25em;
     margin-bottom: 1em;
